@@ -56,7 +56,7 @@ Hardware used for our project are:
 In our system object classification is done based on image processing, sensor-based classification, and density-based classification
 
 ![Object Detection](https://github.com/Anikcb/Waste-detection/blob/main/Data/detection.png?raw=true)
-### IMAGE CLASSIFICATION
+### <ins>IMAGE CLASSIFICATION</ins>
 We have trained our model using CNN, SVM, DenseNet169, MobileNetV2, ResNet50, VGG19, and YOLO v8 algorithms with our datasets and compared the result for best accuracy
 
 | Algorithms  | Accuracy    | Precesion   | Recall     |
@@ -69,8 +69,8 @@ We have trained our model using CNN, SVM, DenseNet169, MobileNetV2, ResNet50, VG
 | YOLOv8      | 98%         |    0.96     | 0.95       |
 | SVM         | 17%         |    0.18     | 0.17       |
 
-### SENSOR BASED CLASSIFICATION
+### <ins>SENSOR BASED CLASSIFICATION</ins>
 We have used two sensors for object detection. For metal detection, we used an LC Metal detector non-contact metal induction detection module. When it approaches any metal, it makes a sound. For non-metal object detection, we have used a capacitive sensor that can detect plastic, glass, and wood.
 
-### DENSITY BASED CLASSIFICATION
+### <ins>DENSITY BASED CLASSIFICATION</ins>
 For density-based object detection, we created a project which calculates the density from area and weight. Our area measurement model provides the dimensions of a reference object and finds the dimensions of other objects in a scene. Then our model calculates how many pixels are there per metric (centimeter is used here) and for computing results raw bounding boxes around each object and calculate its height and width. From height and width, we calculate the volume of an object. For weight measurement, we used Weighing Load Cell Sensor which can measure up to 1 kg of weight. We get our density by dividing a quantity such as mass by an area or volume. Based on the density we predict the type of waste.
