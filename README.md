@@ -2,23 +2,19 @@
 <details>
   <summary> INSTALL </summary>
 
-  <blockquote>
-
   ```sh
   git clone https://github.com/Anikcb/Waste-detection.git
   cd Waste-detection
   pip install -r requirements.txt
   ```
 </details>
+
 <details>
   <summary> TRAINING </summary>
 
-  <blockquote>
-
-  ```sh
-  If you want to train a model, you can use the "Dataset" folder for the dataset and train them by
+  > If you want to train a model, you can use the "Dataset" folder for the dataset and train them by
   using the codes in "Algorithms"
-  ```
+ 
 </details>
 
 ## RUN IMAGE CLASSIFICATION
@@ -74,7 +70,7 @@ We have trained our model using CNN, SVM, DenseNet169, MobileNetV2, ResNet50, VG
 | SVM         | 17%         |    0.18     | 0.17       |
 
 ### SENSOR BASED CLASSIFICATION
-We have used two sensors for object detection. For metal detection, we used an LC Metal detector non-contact metal induction detection module. When it approaches any metal, it makes a sound. For non-metal object detection, we have used a capacitive sensor which can detect plastic, glass, and wood.
+We have used two sensors for object detection. For metal detection, we used an LC Metal detector non-contact metal induction detection module. When it approaches any metal, it makes a sound. For non-metal object detection, we have used a capacitive sensor that can detect plastic, glass, and wood.
 
 ### DENSITY BASED CLASSIFICATION
 For density-based object detection, we created a project which calculates the density from area and weight. Our area measurement model provides the dimensions of a reference object and finds the dimensions of other objects in a scene. Then our model calculates how many pixels are there per metric (centimeter is used here) and for computing results raw bounding boxes around each object and calculate its height and width. From height and width, we calculate the volume of an object. For weight measurement, we used Weighing Load Cell Sensor which can measure up to 1 kg of weight. We get our density by dividing a quantity such as mass by an area or volume. Based on the density we predict the type of waste.
