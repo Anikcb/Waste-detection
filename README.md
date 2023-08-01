@@ -17,7 +17,8 @@
  
 </details>
 
-## RUN IMAGE CLASSIFICATION
+
+### <ins>RUN IMAGE CLASSIFICATION</ins>
 After installing the repository, install all packages from "requirments.txt" file and then run "reltime.py"
 
   ```sh
