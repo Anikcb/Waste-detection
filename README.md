@@ -18,10 +18,10 @@
 
 
 ### <ins>RUN REALTIME WASTE DETECTION</ins>
-Install all packages from "requirments.txt" file and then run "reltime.py"
+Install all packages from "requirements.txt" file and then run "reltime.py"
 
   ```sh
-  pip install -r requirments.txt
+  pip install -r requirements.txt
   python realtime.py
   ```
 
