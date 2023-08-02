@@ -12,16 +12,16 @@
 <details>
   <summary> TRAINING </summary>
 
-  > If you want to train a model, you can use the "Dataset" folder for the dataset and train them by
-  using the codes in "Algorithms"
+  > To train a model, use "Dataset" folder and use the codes from "Algorithms"
  
 </details>
 
 
-### <ins>RUN IMAGE CLASSIFICATION</ins>
-After installing the repository, install all packages from "requirments.txt" file and then run "reltime.py"
+### <ins>RUN REALTIME WASTE DETECTION</ins>
+Install all packages from "requirments.txt" file and then run "reltime.py"
 
   ```sh
+  pip install -r requirments.txt
   python realtime.py
   ```
 
