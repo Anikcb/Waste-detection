@@ -76,7 +76,9 @@ We have used two sensors for object detection. For metal detection, we used an L
 
 ### <ins>DENSITY BASED CLASSIFICATION</ins>
 For density-based object detection, we created a project which calculates the density from area and weight. Our area measurement model provides the dimensions of a reference object and finds the dimensions of other objects in a scene. Then our model calculates how many pixels are there per metric (centimeter is used here) and for computing results raw bounding boxes around each object and calculate its height and width. From height and width, we calculate the volume of an object. For weight measurement, we used Weighing Load Cell Sensor which can measure up to 1 kg of weight. We get our density by dividing a quantity such as mass by an area or volume. Based on the density we predict the type of waste.
+
 ![Weight measurement](https://github.com/Anikcb/Waste-detection/blob/main/Data/weight.png?raw=true)
+
 ![Area measurement](https://github.com/Anikcb/Waste-detection/blob/main/Data/area.png?raw=true)
 
 By camera, our system will detect the size of an object and the sensor will provide the weight. we can see how our system will measure the length, width, and height of an object. We used two cameras for measuring the sizes. One will get length, and width and the other will get height. It will calculate the volume by multiplying them.
