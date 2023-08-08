@@ -1,6 +1,6 @@
 # DOCUMENTATION
 <details>
-  <summary> INSTALL </summary>
+  <summary> INSTALL(Python 3.8) </summary>
 
   ```sh
   git clone https://github.com/Anikcb/Waste-detection.git
